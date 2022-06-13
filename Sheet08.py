@@ -1,5 +1,5 @@
-x_str = input("1. Zahl:")
-y_str = input("2. Zahl:")
+x_str = input("1. Zahl: ")
+y_str = input("2. Zahl: ")
 x = int(x_str)
 y = int(y_str)
 
