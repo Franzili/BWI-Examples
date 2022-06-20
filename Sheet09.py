@@ -21,6 +21,7 @@ while not fertig:
     if result == 42:
         print("Die Antwort auf ALLES ist ...")
     print("=", result)
+    print("Übrigens, wenn man die erste durch die zweite Zahl teilt bleibt ein Rest von", x % y)
 
 
 # Aufgabe 2
