@@ -6,17 +6,21 @@ while not fertig:
     x = float(input("Gib eine Zahl ein: "))             # 3
     op = input("Gib eine Rechenoperation ein: ")        # *
     y = float(input("Gib eine weitere Zahl ein: "))     # 4
+    result = 0
     if op == '+':
-        print("Das Ergebnis ist", x + y)
+        result = x + y
     elif op == '-':
-        print("Das Ergebnis ist", x - y)
+        result = x - y
     elif op == '*':
-        print("Das Ergebnis ist", x * y)
+        result = x * y
     elif op == '/':
-        print("Das Ergebnis ist", x / y)
+        result = x / y
     else:
         print("Der Operand ist ungültig, versuchs nochmal.")
         fertig = False
+    if result == 42:
+        print("Die Antwort auf ALLES ist ...")
+    print("=", result)
 
 
 # Aufgabe 2
