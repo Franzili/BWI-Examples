@@ -54,7 +54,7 @@ def aufgabe2():
                 if (inp % i) == 0:
                     print("No prime number, Dude. Gimme a prime number or you're fired.")
                     break
-            else:
+            else:   # In diesen Fall kommt man, wenn man in dem for-loop auf kein break gestoßen ist
                 print("Wow. A prime number! You hit the bull's eye!")
     else:
         print("Silly number!")
