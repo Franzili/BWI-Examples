@@ -105,7 +105,7 @@ def bonus(dict_of_palindromes):
                         # Prüfen, dass wir das Palindrom nicht bereits gelöscht haben
                         if pali in dict_of_palindromes[key]:
                             dict_of_palindromes[key].remove(pali)
-    print(dict_of_palindromes)
+    print("Ohne kleinere Teilpalindrome von größeren:\n", dict_of_palindromes)
     return dict_of_palindromes
 
 
