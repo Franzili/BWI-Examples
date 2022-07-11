@@ -42,8 +42,8 @@ def compare_seqs(seq_a, seq_b):
     for i in range(0, len_seqs):
         if seq_a[i] == seq_b[i]:
             num_equal_aminos += 1
-    print("Die beiden Sequenzen beinhalten", num_equal_aminos,
-          "gleiche Aminosäuren, das sind", (num_equal_aminos/len_seqs) * 100, "%.")
+    print("Die beiden Sequenzen beinhalten an", num_equal_aminos,
+          "Positionen die gleiche Aminosäure, das sind", (num_equal_aminos/len_seqs) * 100, "%.")
 
 
 # Aufgabe 1
